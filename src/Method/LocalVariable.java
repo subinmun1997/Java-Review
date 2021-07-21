@@ -7,7 +7,7 @@ public class LocalVariable {
 		int num1 = 11;
 		
 		if(ste) {
-			//int num1 = 22; // 주석 해제하면 컴파일 오류 발생. C언어는 허용하지만 JAVA는 하용X
+			//int num1 = 22; // 주석 해제하면 컴파일 오류 발생. C언어는 허용하지만 JAVA는 허용X
 			num1++; // 7행의 num1 접근
 			System.out.println(num1);
 		}
